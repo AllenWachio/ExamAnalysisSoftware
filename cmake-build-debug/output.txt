@@ -147,9 +147,9 @@ Marks:
 94
 67
 82
-65Total Marks: 576
-  Average Marks: 72.000000
-  Standard Deviation: 19.773720
-
+65
 89
+Total Marks: 576
+Average Marks: 72.000000
+Standard Deviation: 19.773720
 
