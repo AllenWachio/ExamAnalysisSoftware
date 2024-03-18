@@ -1,0 +1,3 @@
+C:/Users/User/CLionProjects/Exam Analysis Software Mechatronics/cmake-build-debug/CMakeFiles/Exam_Analysis_Software_Mechatronics.dir
+C:/Users/User/CLionProjects/Exam Analysis Software Mechatronics/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/User/CLionProjects/Exam Analysis Software Mechatronics/cmake-build-debug/CMakeFiles/rebuild_cache.dir
