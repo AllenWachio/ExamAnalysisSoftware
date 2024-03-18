@@ -10,7 +10,7 @@ Marks:
 97
 Total Marks: 600
 Average Marks: 75.000000
-Standard Deviation: 27.216723
+Standard Deviation: 9.622565
 
 Student: Samantha,
 Marks:
@@ -25,7 +25,7 @@ Marks:
 82
 Total Marks: 608
 Average Marks: 67.555556
-Standard Deviation: 19.872433
+Standard Deviation: 7.025966
 
 Student: Jennifer,
 Marks:
@@ -39,7 +39,7 @@ Marks:
 45
 Total Marks: 554
 Average Marks: 69.250000
-Standard Deviation: 20.962765
+Standard Deviation: 7.411457
 
 Student: Michael,
 Marks:
@@ -53,7 +53,7 @@ Marks:
 83
 Total Marks: 561
 Average Marks: 70.125000
-Standard Deviation: 17.017913
+Standard Deviation: 6.016741
 
 Student: Emily,
 Marks:
@@ -67,7 +67,7 @@ Marks:
 62
 Total Marks: 566
 Average Marks: 70.750000
-Standard Deviation: 20.160295
+Standard Deviation: 7.127741
 
 Student: David,
 Marks:
@@ -81,7 +81,7 @@ Marks:
 56
 Total Marks: 588
 Average Marks: 73.500000
-Standard Deviation: 15.402922
+Standard Deviation: 5.445755
 
 Student: Jessica,
 Marks:
@@ -95,7 +95,7 @@ Marks:
 74
 Total Marks: 582
 Average Marks: 72.750000
-Standard Deviation: 18.081413
+Standard Deviation: 6.392745
 
 Student: Andrew,
 Marks:
@@ -109,7 +109,7 @@ Marks:
 70
 Total Marks: 585
 Average Marks: 73.125000
-Standard Deviation: 15.103290
+Standard Deviation: 5.339819
 
 Student: Sarah,
 Marks:
@@ -123,7 +123,7 @@ Marks:
 61
 Total Marks: 581
 Average Marks: 72.625000
-Standard Deviation: 20.657550
+Standard Deviation: 7.303547
 
 Student: Christopher,
 Marks:
@@ -137,7 +137,7 @@ Marks:
 84
 Total Marks: 571
 Average Marks: 71.375000
-Standard Deviation: 16.770044
+Standard Deviation: 5.929106
 
 Student: Ashley,
 Marks:
@@ -151,5 +151,5 @@ Marks:
 89
 Total Marks: 576
 Average Marks: 72.000000
-Standard Deviation: 19.773720
+Standard Deviation: 6.991066
 

@@ -9,7 +9,7 @@ using namespace std;
 // Class to handle statistical calculations
 class StatisticsCalculator {
 public:
-    // Calculate average
+    // Average
     static double calculateAverage(const vector<int>& marks) {
         int sum = 0;
         for (int mark : marks) {
@@ -18,11 +18,11 @@ public:
         return static_cast<double>(sum) / marks.size();
     }
 
-    // Calculate standard deviation
+    // Standard deviation
     static double calculateStdDev(const vector<int>& marks, double average) {
         double variance = 0;
         for (int mark : marks) {
-            variance += pow(mark - average, 2);
+            variance += pow(mark - average, 2) /8;
         }
         variance /= marks.size();
         return sqrt(variance);
@@ -87,13 +87,11 @@ int main() {
             totalMarks += mark;
         }
 
-        // Calculate average marks
         double average = StatisticsCalculator::calculateAverage(marks);
 
-        // Calculate standard deviation
         double stdDev = StatisticsCalculator::calculateStdDev(marks, average);
 
-        // Prepare output
+
         outputLines.push_back("Student: " + name);
         outputLines.push_back("Marks:");
         for (int mark : marks) {
