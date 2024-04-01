@@ -1,155 +1,155 @@
 Student: Alice,
 Marks:
-78
-92
-85
-88
-100
-20
-40
-97
+Subject 1: 78 (Grade: C)
+Subject 2: 92 (Grade: A)
+Subject 3: 85 (Grade: B)
+Subject 4: 88 (Grade: B)
+Subject 5: 100 (Grade: A)
+Subject 6: 20 (Grade: F)
+Subject 7: 40 (Grade: F)
+Subject 8: 97 (Grade: A)
 Total Marks: 600
 Average Marks: 75.000000
-Standard Deviation: 9.622565
+Standard Deviation: 27.216723
 
 Student: Samantha,
 Marks:
-45
-73
-60
-88
-95
-32
-54
-79
-82
+Subject 1: 45 (Grade: F)
+Subject 2: 73 (Grade: C)
+Subject 3: 60 (Grade: D)
+Subject 4: 88 (Grade: B)
+Subject 5: 95 (Grade: A)
+Subject 6: 32 (Grade: F)
+Subject 7: 54 (Grade: E)
+Subject 8: 79 (Grade: C)
+Subject 9: 82 (Grade: B)
 Total Marks: 608
 Average Marks: 67.555556
-Standard Deviation: 7.025966
+Standard Deviation: 19.872433
 
 Student: Jennifer,
 Marks:
-29
-84
-90
-78
-65
-93
-70
-45
+Subject 1: 29 (Grade: F)
+Subject 2: 84 (Grade: B)
+Subject 3: 90 (Grade: A)
+Subject 4: 78 (Grade: C)
+Subject 5: 65 (Grade: D)
+Subject 6: 93 (Grade: A)
+Subject 7: 70 (Grade: C)
+Subject 8: 45 (Grade: F)
 Total Marks: 554
 Average Marks: 69.250000
-Standard Deviation: 7.411457
+Standard Deviation: 20.962765
 
 Student: Michael,
 Marks:
-37
-60
-78
-85
-72
-91
-55
-83
+Subject 1: 37 (Grade: F)
+Subject 2: 60 (Grade: D)
+Subject 3: 78 (Grade: C)
+Subject 4: 85 (Grade: B)
+Subject 5: 72 (Grade: C)
+Subject 6: 91 (Grade: A)
+Subject 7: 55 (Grade: E)
+Subject 8: 83 (Grade: B)
 Total Marks: 561
 Average Marks: 70.125000
-Standard Deviation: 6.016741
+Standard Deviation: 17.017913
 
 Student: Emily,
 Marks:
-23
-92
-80
-68
-75
-87
-79
-62
+Subject 1: 23 (Grade: F)
+Subject 2: 92 (Grade: A)
+Subject 3: 80 (Grade: B)
+Subject 4: 68 (Grade: D)
+Subject 5: 75 (Grade: C)
+Subject 6: 87 (Grade: B)
+Subject 7: 79 (Grade: C)
+Subject 8: 62 (Grade: D)
 Total Marks: 566
 Average Marks: 70.750000
-Standard Deviation: 7.127741
+Standard Deviation: 20.160295
 
 Student: David,
 Marks:
-50
-78
-63
-89
-97
-71
-84
-56
+Subject 1: 50 (Grade: E)
+Subject 2: 78 (Grade: C)
+Subject 3: 63 (Grade: D)
+Subject 4: 89 (Grade: B)
+Subject 5: 97 (Grade: A)
+Subject 6: 71 (Grade: C)
+Subject 7: 84 (Grade: B)
+Subject 8: 56 (Grade: E)
 Total Marks: 588
 Average Marks: 73.500000
-Standard Deviation: 5.445755
+Standard Deviation: 15.402922
 
 Student: Jessica,
 Marks:
-31
-87
-75
-69
-82
-96
-68
-74
+Subject 1: 31 (Grade: F)
+Subject 2: 87 (Grade: B)
+Subject 3: 75 (Grade: C)
+Subject 4: 69 (Grade: D)
+Subject 5: 82 (Grade: B)
+Subject 6: 96 (Grade: A)
+Subject 7: 68 (Grade: D)
+Subject 8: 74 (Grade: C)
 Total Marks: 582
 Average Marks: 72.750000
-Standard Deviation: 6.392745
+Standard Deviation: 18.081413
 
 Student: Andrew,
 Marks:
-42
-72
-91
-83
-79
-60
-88
-70
+Subject 1: 42 (Grade: F)
+Subject 2: 72 (Grade: C)
+Subject 3: 91 (Grade: A)
+Subject 4: 83 (Grade: B)
+Subject 5: 79 (Grade: C)
+Subject 6: 60 (Grade: D)
+Subject 7: 88 (Grade: B)
+Subject 8: 70 (Grade: C)
 Total Marks: 585
 Average Marks: 73.125000
-Standard Deviation: 5.339819
+Standard Deviation: 15.103290
 
 Student: Sarah,
 Marks:
-27
-95
-67
-74
-88
-76
-93
-61
+Subject 1: 27 (Grade: F)
+Subject 2: 95 (Grade: A)
+Subject 3: 67 (Grade: D)
+Subject 4: 74 (Grade: C)
+Subject 5: 88 (Grade: B)
+Subject 6: 76 (Grade: C)
+Subject 7: 93 (Grade: A)
+Subject 8: 61 (Grade: D)
 Total Marks: 581
 Average Marks: 72.625000
-Standard Deviation: 7.303547
+Standard Deviation: 20.657550
 
 Student: Christopher,
 Marks:
-35
-68
-85
-72
-91
-59
-77
-84
+Subject 1: 35 (Grade: F)
+Subject 2: 68 (Grade: D)
+Subject 3: 85 (Grade: B)
+Subject 4: 72 (Grade: C)
+Subject 5: 91 (Grade: A)
+Subject 6: 59 (Grade: E)
+Subject 7: 77 (Grade: C)
+Subject 8: 84 (Grade: B)
 Total Marks: 571
 Average Marks: 71.375000
-Standard Deviation: 5.929106
+Standard Deviation: 16.770044
 
 Student: Ashley,
 Marks:
-26
-80
-73
-94
-67
-82
-65
-89
+Subject 1: 26 (Grade: F)
+Subject 2: 80 (Grade: B)
+Subject 3: 73 (Grade: C)
+Subject 4: 94 (Grade: A)
+Subject 5: 67 (Grade: D)
+Subject 6: 82 (Grade: B)
+Subject 7: 65 (Grade: D)
+Subject 8: 89 (Grade: B)
 Total Marks: 576
 Average Marks: 72.000000
-Standard Deviation: 6.991066
+Standard Deviation: 19.773720
 

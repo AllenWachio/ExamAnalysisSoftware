@@ -1,0 +1,12 @@
+Ranking of Students (Best to Worst):
+1. Sarah, - Total Marks: 1
+2. Andrew, - Total Marks: 2
+3. David, - Total Marks: 3
+4. Samantha, - Total Marks: 4
+5. Emily, - Total Marks: 5
+6. Christopher, - Total Marks: 6
+7. Jennifer, - Total Marks: 7
+8. Jessica, - Total Marks: 8
+9. Ashley, - Total Marks: 9
+10. Michael, - Total Marks: 10
+11. Alice, - Total Marks: 11
