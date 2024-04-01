@@ -1,154 +1,154 @@
 Student: Alice,
 Marks:
-Subject 1: 78 (Grade: C)
-Subject 2: 92 (Grade: A)
-Subject 3: 85 (Grade: B)
-Subject 4: 88 (Grade: B)
-Subject 5: 100 (Grade: A)
-Subject 6: 20 (Grade: F)
-Subject 7: 40 (Grade: F)
-Subject 8: 97 (Grade: A)
+Subject 1: 78, (C)
+Subject 2: 92, (A)
+Subject 3: 85, (B)
+Subject 4: 88, (B)
+Subject 5: 100, (A)
+Subject 6: 20, (F)
+Subject 7: 40, (F)
+Subject 8: 97 (A)
 Total Marks: 600
 Average Marks: 75.000000
 Standard Deviation: 27.216723
 
 Student: Samantha,
 Marks:
-Subject 1: 45 (Grade: F)
-Subject 2: 73 (Grade: C)
-Subject 3: 60 (Grade: D)
-Subject 4: 88 (Grade: B)
-Subject 5: 95 (Grade: A)
-Subject 6: 32 (Grade: F)
-Subject 7: 54 (Grade: E)
-Subject 8: 79 (Grade: C)
-Subject 9: 82 (Grade: B)
+Subject 1: 45, (F)
+Subject 2: 73, (C)
+Subject 3: 60, (D)
+Subject 4: 88, (B)
+Subject 5: 95, (A)
+Subject 6: 32, (F)
+Subject 7: 54, (E)
+Subject 8: 79, (C)
+Subject 9: 82 (B)
 Total Marks: 608
 Average Marks: 67.555556
 Standard Deviation: 19.872433
 
 Student: Jennifer,
 Marks:
-Subject 1: 29 (Grade: F)
-Subject 2: 84 (Grade: B)
-Subject 3: 90 (Grade: A)
-Subject 4: 78 (Grade: C)
-Subject 5: 65 (Grade: D)
-Subject 6: 93 (Grade: A)
-Subject 7: 70 (Grade: C)
-Subject 8: 45 (Grade: F)
-Total Marks: 554
-Average Marks: 69.250000
-Standard Deviation: 20.962765
+Subject 1: 99, (A)
+Subject 2: 84, (B)
+Subject 3: 90, (A)
+Subject 4: 78, (C)
+Subject 5: 65, (D)
+Subject 6: 93, (A)
+Subject 7: 70, (C)
+Subject 8: 45 (F)
+Total Marks: 624
+Average Marks: 78.000000
+Standard Deviation: 16.462078
 
 Student: Michael,
 Marks:
-Subject 1: 37 (Grade: F)
-Subject 2: 60 (Grade: D)
-Subject 3: 78 (Grade: C)
-Subject 4: 85 (Grade: B)
-Subject 5: 72 (Grade: C)
-Subject 6: 91 (Grade: A)
-Subject 7: 55 (Grade: E)
-Subject 8: 83 (Grade: B)
+Subject 1: 37, (F)
+Subject 2: 60, (D)
+Subject 3: 78, (C)
+Subject 4: 85, (B)
+Subject 5: 72, (C)
+Subject 6: 91, (A)
+Subject 7: 55, (E)
+Subject 8: 83 (B)
 Total Marks: 561
 Average Marks: 70.125000
 Standard Deviation: 17.017913
 
 Student: Emily,
 Marks:
-Subject 1: 23 (Grade: F)
-Subject 2: 92 (Grade: A)
-Subject 3: 80 (Grade: B)
-Subject 4: 68 (Grade: D)
-Subject 5: 75 (Grade: C)
-Subject 6: 87 (Grade: B)
-Subject 7: 79 (Grade: C)
-Subject 8: 62 (Grade: D)
+Subject 1: 23, (F)
+Subject 2: 92, (A)
+Subject 3: 80, (B)
+Subject 4: 68, (D)
+Subject 5: 75, (C)
+Subject 6: 87, (B)
+Subject 7: 79, (C)
+Subject 8: 62 (D)
 Total Marks: 566
 Average Marks: 70.750000
 Standard Deviation: 20.160295
 
 Student: David,
 Marks:
-Subject 1: 50 (Grade: E)
-Subject 2: 78 (Grade: C)
-Subject 3: 63 (Grade: D)
-Subject 4: 89 (Grade: B)
-Subject 5: 97 (Grade: A)
-Subject 6: 71 (Grade: C)
-Subject 7: 84 (Grade: B)
-Subject 8: 56 (Grade: E)
+Subject 1: 50, (E)
+Subject 2: 78, (C)
+Subject 3: 63, (D)
+Subject 4: 89, (B)
+Subject 5: 97, (A)
+Subject 6: 71, (C)
+Subject 7: 84, (B)
+Subject 8: 56 (E)
 Total Marks: 588
 Average Marks: 73.500000
 Standard Deviation: 15.402922
 
 Student: Jessica,
 Marks:
-Subject 1: 31 (Grade: F)
-Subject 2: 87 (Grade: B)
-Subject 3: 75 (Grade: C)
-Subject 4: 69 (Grade: D)
-Subject 5: 82 (Grade: B)
-Subject 6: 96 (Grade: A)
-Subject 7: 68 (Grade: D)
-Subject 8: 74 (Grade: C)
+Subject 1: 31, (F)
+Subject 2: 87, (B)
+Subject 3: 75, (C)
+Subject 4: 69, (D)
+Subject 5: 82, (B)
+Subject 6: 96, (A)
+Subject 7: 68, (D)
+Subject 8: 74 (C)
 Total Marks: 582
 Average Marks: 72.750000
 Standard Deviation: 18.081413
 
 Student: Andrew,
 Marks:
-Subject 1: 42 (Grade: F)
-Subject 2: 72 (Grade: C)
-Subject 3: 91 (Grade: A)
-Subject 4: 83 (Grade: B)
-Subject 5: 79 (Grade: C)
-Subject 6: 60 (Grade: D)
-Subject 7: 88 (Grade: B)
-Subject 8: 70 (Grade: C)
+Subject 1: 42, (F)
+Subject 2: 72, (C)
+Subject 3: 91, (A)
+Subject 4: 83, (B)
+Subject 5: 79, (C)
+Subject 6: 60, (D)
+Subject 7: 88, (B)
+Subject 8: 70 (C)
 Total Marks: 585
 Average Marks: 73.125000
 Standard Deviation: 15.103290
 
 Student: Sarah,
 Marks:
-Subject 1: 27 (Grade: F)
-Subject 2: 95 (Grade: A)
-Subject 3: 67 (Grade: D)
-Subject 4: 74 (Grade: C)
-Subject 5: 88 (Grade: B)
-Subject 6: 76 (Grade: C)
-Subject 7: 93 (Grade: A)
-Subject 8: 61 (Grade: D)
+Subject 1: 27, (F)
+Subject 2: 95, (A)
+Subject 3: 67, (D)
+Subject 4: 74, (C)
+Subject 5: 88, (B)
+Subject 6: 76, (C)
+Subject 7: 93, (A)
+Subject 8: 61 (D)
 Total Marks: 581
 Average Marks: 72.625000
 Standard Deviation: 20.657550
 
 Student: Christopher,
 Marks:
-Subject 1: 35 (Grade: F)
-Subject 2: 68 (Grade: D)
-Subject 3: 85 (Grade: B)
-Subject 4: 72 (Grade: C)
-Subject 5: 91 (Grade: A)
-Subject 6: 59 (Grade: E)
-Subject 7: 77 (Grade: C)
-Subject 8: 84 (Grade: B)
+Subject 1: 35, (F)
+Subject 2: 68, (D)
+Subject 3: 85, (B)
+Subject 4: 72, (C)
+Subject 5: 91, (A)
+Subject 6: 59, (E)
+Subject 7: 77, (C)
+Subject 8: 84 (B)
 Total Marks: 571
 Average Marks: 71.375000
 Standard Deviation: 16.770044
 
 Student: Ashley,
 Marks:
-Subject 1: 26 (Grade: F)
-Subject 2: 80 (Grade: B)
-Subject 3: 73 (Grade: C)
-Subject 4: 94 (Grade: A)
-Subject 5: 67 (Grade: D)
-Subject 6: 82 (Grade: B)
-Subject 7: 65 (Grade: D)
-Subject 8: 89 (Grade: B)
+Subject 1: 26, (F)
+Subject 2: 80, (B)
+Subject 3: 73, (C)
+Subject 4: 94, (A)
+Subject 5: 67, (D)
+Subject 6: 82, (B)
+Subject 7: 65, (D)
+Subject 8: 89 (B)
 Total Marks: 576
 Average Marks: 72.000000
 Standard Deviation: 19.773720

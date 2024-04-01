@@ -92,50 +92,52 @@ public:
     }
 };
 
-// Function to compare total marks for ranking
-bool compareTotalMarks(const vector<string>& student1, const vector<string>& student2) {
-    int totalMarks1 = stoi(student1[student1.size() - 2]); // Total marks is the second last element
-    int totalMarks2 = stoi(student2[student2.size() - 2]);
-    return totalMarks1 > totalMarks2;
+// Custom sorting function based on total marks
+bool compareTotalMarks(const vector<string>& a, const vector<string>& b) {
+    int totalMarksA = stoi(a.back());
+    int totalMarksB = stoi(b.back());
+    return totalMarksA > totalMarksB;
 }
 
 int main() {
     vector<vector<string>> studentData = FileHandler::readFromFile("input.txt");
     vector<string> outputLines;
-    vector<vector<string>> rankData = studentData; // Copy student data for ranking
+    vector<vector<string>> rankData; // Define rankData vector
 
     for (vector<string>& record : studentData) {
         string name = record[0];
         vector<int> marks;
-        for (size_t i = 1; i < record.size(); ++i) {
-            marks.push_back(stoi(record[i]));
-        }
 
         // Calculate total marks
         int totalMarks = 0;
-        for (int mark : marks) {
+        for (size_t i = 1; i < record.size(); ++i) {
+            int mark = stoi(record[i]);
+            marks.push_back(mark);
             totalMarks += mark;
+
+
+            // Calculate grade for each mark
+            char grade = GradeCalculator::calculateGrade(mark);
+            record[i] += " (" + string(1, grade) + ")"; // Append grade to the mark in the record
         }
 
         double average = StatisticsCalculator::calculateAverage(marks);
 
         double stdDev = StatisticsCalculator::calculateStdDev(marks, average);
 
-        // Calculate grades for each subject
-        vector<char> grades;
-        for (int mark : marks) {
-            grades.push_back(GradeCalculator::calculateGrade(mark));
-        }
-
         outputLines.push_back("Student: " + name);
-        outputLines.emplace_back("Marks:");
+        outputLines.push_back("Marks:");
         for (size_t i = 0; i < marks.size(); ++i) {
-            outputLines.push_back("Subject " + to_string(i + 1) + ": " + to_string(marks[i]) + " (Grade: " + grades[i] + ")");
+            outputLines.push_back("Subject " + to_string(i + 1) + ": " + record[i + 1]); // Output grade along with mark
         }
         outputLines.push_back("Total Marks: " + to_string(totalMarks));
         outputLines.push_back("Average Marks: " + to_string(average));
         outputLines.push_back("Standard Deviation: " + to_string(stdDev));
-        outputLines.emplace_back("");
+        outputLines.push_back("");
+
+        // Add student record to rankData with total marks
+        record.push_back(to_string(totalMarks));
+        rankData.push_back(record);
     }
 
     // Sort students based on total marks
@@ -143,10 +145,10 @@ int main() {
 
     // Write ranked results to output file
     vector<string> rankOutputLines;
-    rankOutputLines.emplace_back("Ranking of Students (Best to Worst):");
+    rankOutputLines.push_back("Ranking of Students (Best to Worst):");
     int rank = 1;
     for (const vector<string>& record : rankData) {
-        rankOutputLines.push_back(to_string(rank++) + ". " + record[0] + " - Total Marks: " + to_string(totalMarks));
+        rankOutputLines.push_back(to_string(rank++) + ". " + record[0] + " - Total Marks: " + record.back());
     }
 
     FileHandler::writeToFile("output.txt", outputLines);
