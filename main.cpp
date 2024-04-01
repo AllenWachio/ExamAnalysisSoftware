@@ -5,6 +5,7 @@
 #include <cmath>
 #include <algorithm>
 
+
 using namespace std;
 
 // Class to handle statistical calculations
@@ -34,19 +35,31 @@ public:
 class GradeCalculator {
 public:
     // Grade
-    static char calculateGrade(int mark) {
-        if (mark >= 90) {
-            return 'A';
+    static string calculateGrade(int mark) {
+        if (mark >= 85) {
+            return "A";
         } else if (mark >= 80) {
-            return 'B';
+            return "A-";
+        } else if (mark >= 75) {
+            return "B+";
         } else if (mark >= 70) {
-            return 'C';
+            return "B";
+        } else if (mark >= 65) {
+            return "B-";
         } else if (mark >= 60) {
-            return 'D';
+            return "C+";
+        } else if (mark >= 55) {
+            return "C";
         } else if (mark >= 50) {
-            return 'E';
+            return "C-";
+        } else if (mark >= 45) {
+            return "D+";
+        } else if (mark >= 40) {
+            return "D";
+        } else if (mark >= 35) {
+            return "D-";
         } else {
-            return 'F';
+            return "E";
         }
     }
 };
@@ -99,6 +112,7 @@ bool compareTotalMarks(const vector<string>& a, const vector<string>& b) {
     return totalMarksA > totalMarksB;
 }
 
+
 int main() {
     vector<vector<string>> studentData = FileHandler::readFromFile("input.txt");
     vector<string> outputLines;
@@ -117,8 +131,8 @@ int main() {
 
 
             // Calculate grade for each mark
-            char grade = GradeCalculator::calculateGrade(mark);
-            record[i] += " (" + string(1, grade) + ")"; // Append grade to the mark in the record
+            string grade = GradeCalculator::calculateGrade(mark);
+            record[i] += " (" + grade + ")"; // Append grade to the mark in the record
         }
 
         double average = StatisticsCalculator::calculateAverage(marks);
@@ -126,14 +140,14 @@ int main() {
         double stdDev = StatisticsCalculator::calculateStdDev(marks, average);
 
         outputLines.push_back("Student: " + name);
-        outputLines.push_back("Marks:");
+        outputLines.emplace_back("Marks:");
         for (size_t i = 0; i < marks.size(); ++i) {
             outputLines.push_back("Subject " + to_string(i + 1) + ": " + record[i + 1]); // Output grade along with mark
         }
         outputLines.push_back("Total Marks: " + to_string(totalMarks));
         outputLines.push_back("Average Marks: " + to_string(average));
         outputLines.push_back("Standard Deviation: " + to_string(stdDev));
-        outputLines.push_back("");
+        outputLines.emplace_back("");
 
         // Add student record to rankData with total marks
         record.push_back(to_string(totalMarks));
@@ -145,7 +159,7 @@ int main() {
 
     // Write ranked results to output file
     vector<string> rankOutputLines;
-    rankOutputLines.push_back("Ranking of Students (Best to Worst):");
+    rankOutputLines.emplace_back("Ranking of Students (Best to Worst):");
     int rank = 1;
     for (const vector<string>& record : rankData) {
         rankOutputLines.push_back(to_string(rank++) + ". " + record[0] + " - Total Marks: " + record.back());

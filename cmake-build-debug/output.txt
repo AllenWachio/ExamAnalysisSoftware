@@ -1,12 +1,12 @@
 Student: Alice,
 Marks:
-Subject 1: 78, (C)
+Subject 1: 78, (B+)
 Subject 2: 92, (A)
-Subject 3: 85, (B)
-Subject 4: 88, (B)
+Subject 3: 85, (A)
+Subject 4: 88, (A)
 Subject 5: 100, (A)
-Subject 6: 20, (F)
-Subject 7: 40, (F)
+Subject 6: 20, (E)
+Subject 7: 40, (D)
 Subject 8: 97 (A)
 Total Marks: 600
 Average Marks: 75.000000
@@ -14,15 +14,15 @@ Standard Deviation: 27.216723
 
 Student: Samantha,
 Marks:
-Subject 1: 45, (F)
-Subject 2: 73, (C)
-Subject 3: 60, (D)
-Subject 4: 88, (B)
+Subject 1: 45, (D+)
+Subject 2: 73, (B)
+Subject 3: 60, (C+)
+Subject 4: 88, (A)
 Subject 5: 95, (A)
-Subject 6: 32, (F)
-Subject 7: 54, (E)
-Subject 8: 79, (C)
-Subject 9: 82 (B)
+Subject 6: 32, (E)
+Subject 7: 54, (C-)
+Subject 8: 79, (B+)
+Subject 9: 82 (A-)
 Total Marks: 608
 Average Marks: 67.555556
 Standard Deviation: 19.872433
@@ -30,125 +30,125 @@ Standard Deviation: 19.872433
 Student: Jennifer,
 Marks:
 Subject 1: 99, (A)
-Subject 2: 84, (B)
+Subject 2: 84, (A-)
 Subject 3: 90, (A)
-Subject 4: 78, (C)
-Subject 5: 65, (D)
+Subject 4: 78, (B+)
+Subject 5: 65, (B-)
 Subject 6: 93, (A)
-Subject 7: 70, (C)
-Subject 8: 45 (F)
+Subject 7: 70, (B)
+Subject 8: 45 (D+)
 Total Marks: 624
 Average Marks: 78.000000
 Standard Deviation: 16.462078
 
 Student: Michael,
 Marks:
-Subject 1: 37, (F)
-Subject 2: 60, (D)
-Subject 3: 78, (C)
-Subject 4: 85, (B)
-Subject 5: 72, (C)
+Subject 1: 37, (D-)
+Subject 2: 60, (C+)
+Subject 3: 78, (B+)
+Subject 4: 85, (A)
+Subject 5: 72, (B)
 Subject 6: 91, (A)
-Subject 7: 55, (E)
-Subject 8: 83 (B)
+Subject 7: 55, (C)
+Subject 8: 83 (A-)
 Total Marks: 561
 Average Marks: 70.125000
 Standard Deviation: 17.017913
 
 Student: Emily,
 Marks:
-Subject 1: 23, (F)
+Subject 1: 23, (E)
 Subject 2: 92, (A)
-Subject 3: 80, (B)
-Subject 4: 68, (D)
-Subject 5: 75, (C)
-Subject 6: 87, (B)
-Subject 7: 79, (C)
-Subject 8: 62 (D)
+Subject 3: 80, (A-)
+Subject 4: 68, (B-)
+Subject 5: 75, (B+)
+Subject 6: 87, (A)
+Subject 7: 79, (B+)
+Subject 8: 62 (C+)
 Total Marks: 566
 Average Marks: 70.750000
 Standard Deviation: 20.160295
 
 Student: David,
 Marks:
-Subject 1: 50, (E)
-Subject 2: 78, (C)
-Subject 3: 63, (D)
-Subject 4: 89, (B)
+Subject 1: 50, (C-)
+Subject 2: 78, (B+)
+Subject 3: 63, (C+)
+Subject 4: 89, (A)
 Subject 5: 97, (A)
-Subject 6: 71, (C)
-Subject 7: 84, (B)
-Subject 8: 56 (E)
+Subject 6: 71, (B)
+Subject 7: 84, (A-)
+Subject 8: 56 (C)
 Total Marks: 588
 Average Marks: 73.500000
 Standard Deviation: 15.402922
 
 Student: Jessica,
 Marks:
-Subject 1: 31, (F)
-Subject 2: 87, (B)
-Subject 3: 75, (C)
-Subject 4: 69, (D)
-Subject 5: 82, (B)
+Subject 1: 31, (E)
+Subject 2: 87, (A)
+Subject 3: 75, (B+)
+Subject 4: 69, (B-)
+Subject 5: 82, (A-)
 Subject 6: 96, (A)
-Subject 7: 68, (D)
-Subject 8: 74 (C)
+Subject 7: 68, (B-)
+Subject 8: 74 (B)
 Total Marks: 582
 Average Marks: 72.750000
 Standard Deviation: 18.081413
 
 Student: Andrew,
 Marks:
-Subject 1: 42, (F)
-Subject 2: 72, (C)
+Subject 1: 42, (D)
+Subject 2: 72, (B)
 Subject 3: 91, (A)
-Subject 4: 83, (B)
-Subject 5: 79, (C)
-Subject 6: 60, (D)
-Subject 7: 88, (B)
-Subject 8: 70 (C)
+Subject 4: 83, (A-)
+Subject 5: 79, (B+)
+Subject 6: 60, (C+)
+Subject 7: 88, (A)
+Subject 8: 70 (B)
 Total Marks: 585
 Average Marks: 73.125000
 Standard Deviation: 15.103290
 
 Student: Sarah,
 Marks:
-Subject 1: 27, (F)
+Subject 1: 27, (E)
 Subject 2: 95, (A)
-Subject 3: 67, (D)
-Subject 4: 74, (C)
-Subject 5: 88, (B)
-Subject 6: 76, (C)
+Subject 3: 67, (B-)
+Subject 4: 74, (B)
+Subject 5: 88, (A)
+Subject 6: 76, (B+)
 Subject 7: 93, (A)
-Subject 8: 61 (D)
+Subject 8: 61 (C+)
 Total Marks: 581
 Average Marks: 72.625000
 Standard Deviation: 20.657550
 
 Student: Christopher,
 Marks:
-Subject 1: 35, (F)
-Subject 2: 68, (D)
-Subject 3: 85, (B)
-Subject 4: 72, (C)
+Subject 1: 35, (D-)
+Subject 2: 68, (B-)
+Subject 3: 85, (A)
+Subject 4: 72, (B)
 Subject 5: 91, (A)
-Subject 6: 59, (E)
-Subject 7: 77, (C)
-Subject 8: 84 (B)
+Subject 6: 59, (C)
+Subject 7: 77, (B+)
+Subject 8: 84 (A-)
 Total Marks: 571
 Average Marks: 71.375000
 Standard Deviation: 16.770044
 
 Student: Ashley,
 Marks:
-Subject 1: 26, (F)
-Subject 2: 80, (B)
-Subject 3: 73, (C)
+Subject 1: 26, (E)
+Subject 2: 80, (A-)
+Subject 3: 73, (B)
 Subject 4: 94, (A)
-Subject 5: 67, (D)
-Subject 6: 82, (B)
-Subject 7: 65, (D)
-Subject 8: 89 (B)
+Subject 5: 67, (B-)
+Subject 6: 82, (A-)
+Subject 7: 65, (B-)
+Subject 8: 89 (A)
 Total Marks: 576
 Average Marks: 72.000000
 Standard Deviation: 19.773720
